@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'pages/models/productsCatalog.dart';
 import 'pages/models/testModel.dart';
+import 'pages/models/test1Catalog.dart';
 import 'pages/models/universityCatalog.dart';
 import 'pages/models/informationCatalog.dart';
 
@@ -9,7 +10,7 @@ void main() {
   // forInformation();
   // forUniversity();
   // forProducts();
-  forTest();
+  forTest1();
 }
 
 void forInformation() async {
@@ -59,4 +60,12 @@ void forTest() async {
 
   print(obj.products[0].item1.cream[0]);
   print(obj.products[1].item2.oil[0]);
+}
+
+void forTest1() async {
+  var json = await File('assets/test1.json').readAsString();
+  var decoded = jsonDecode(json);
+  var obj = Test.fromJson(decoded);
+
+  print(obj.products[0].item.item1.item2);
 }
