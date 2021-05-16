@@ -1,0 +1,21 @@
+{
+  
+    "products":[
+      {"item1":{
+          "cream":[
+              "abc",
+              "xyz"
+          ]
+      }
+    },
+      {"item2":{
+        "oil":[
+            "qaz",
+            "wsx"
+        ]
+    }
+}
+
+]
+
+}

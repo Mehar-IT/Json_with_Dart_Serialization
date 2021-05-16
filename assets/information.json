@@ -1,0 +1,20 @@
+{
+  "name":"Hamza Tarique",
+  "email":"hamzatariquearain@gmail.com",
+  "Languages":[
+    "English",
+    "Urdu",
+    "Punjabi",
+    "Sindhi"
+  ],
+  "skills":[
+    "C++",
+    "Java",
+    "Dart/Flutter",
+    "json",
+    "Git"
+  ],
+  "University":"University Of Sindh",
+  "Dept":"IICT",
+  "Location":"Jamshoro"
+}

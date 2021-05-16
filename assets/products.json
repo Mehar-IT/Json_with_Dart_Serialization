@@ -1,0 +1,33 @@
+{
+  "products":[
+    {
+      "mobiles":[
+        "Samsung",
+        "iphone",
+        "oppo",
+        "vivo"
+        
+      ],
+      "laptops":[
+        "Hp",
+        "Dell",
+        "Toshiba"
+      ]
+    },
+    {
+      "os":[
+        "MacOs",
+        "Linux",
+        "Windows",
+        "ios",
+        "web",
+        "apk"
+      ],
+    "price":{
+      "samsung":"$999",
+      "iphone":"$1200",
+      "macbook":"1700"
+    }}
+
+    ]  }
+
